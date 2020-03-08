@@ -76,6 +76,7 @@ function checkPEG() {
 2. 接着， [安装python环境](https://deeponder.github.io/2020/03/20/python%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/), 引入oauth2client`pip install --upgrade oauth2client`
 4. 最后引入开源的gspread`pip install gspread`， 参照[gspread官方文档](https://gspread.readthedocs.io/en/latest/)就可以愉快地蹂躏、操作谷歌文档了
 最后附上小小的例子， 实现的功能是往指定的google文档追加一行记录
+
 ```
 ...
 scope = ['https://spreadsheets.google.com/feeds']
