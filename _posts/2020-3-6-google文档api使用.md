@@ -74,7 +74,8 @@ function checkPEG() {
 更进一步地，我们希望能用我们自己的脚本去操作谷歌文档。 
 1. 首先，需要到[Google Developers Console](https://console.developers.google.com/cloud-resource-manager)创建一个项目，并注册一个service account和下载对应的凭证， 可参考[Using OAuth2 for Authentication](https://gspread.readthedocs.io/en/latest/oauth2.html)
 2. 接着， [安装python环境](https://deeponder.github.io/2020/03/20/python%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/), 引入oauth2client`pip install --upgrade oauth2client`
-4. 最后引入开源的gspread`pip install gspread`， 参照[gspread官方文档](https://gspread.readthedocs.io/en/latest/)就可以愉快地蹂躏、操作谷歌文档了
+3. 然后，引入开源的gspread`pip install gspread`， 参照[gspread官方文档](https://gspread.readthedocs.io/en/latest/)就可以愉快地蹂躏、操作谷歌文档了
+4. 最后，因为需要访问google的api，所以不能用国内的机器，要用申请香港/国外的主机。 鹅厂内部的话， 可以用dev的机器，配置代理的国 
 最后附上小小的例子， 实现的功能是往指定的google文档追加一行记录
 
 ```
