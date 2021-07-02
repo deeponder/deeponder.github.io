@@ -56,3 +56,8 @@ k8s部署上可以在一个Pod里部署微服务实例和对应的边车代理
 # 六、结论
 1. ServiceMesh倾向于自研， 可用版本开发成本较小。 云厂商收费、且故障及时响应处理不能保证， 所以建议只用云厂商的基础设施
 2. Serverless根据个别场景，接入云厂商提供的服务
+
+# 七、参考文档
+1. https://developer.aliyun.com/article/766206
+2. https://blog.csdn.net/baichoufei90/article/details/107293203
+3. http://icyfenix.cn/introduction/about-the-fenix-project.html
