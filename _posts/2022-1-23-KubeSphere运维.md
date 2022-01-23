@@ -54,12 +54,14 @@ chmod +x kk
 
 ### 集群配置文件
 - 创建
+
 ```
 ./kk create config --with-kubernetes v1.19.8 --with-kubesphere v3.1.1
 
 ```
 
 - 配置文件说明
+
 ```
 # 完整的配置文件说明：https://github.com/kubesphere/kubekey/blob/release-1.2/docs/config-example.md
 apiVersion: kubekey.kubesphere.io/v1alpha1
@@ -110,6 +112,7 @@ spec:
 
 ### 完成安装
 - console
+
 ```
 Console: http://xxxx:30880
 Account: admin
@@ -125,6 +128,7 @@ NOTES：
 ```
 
 - 版本信息
+
 ```
 # k8s  v1.19.8
 [root@zhipeng2 kubekey]# kubectl version
@@ -219,6 +223,7 @@ reviews-v1-7c95bc9454-qfqv4       1/1     Running   0          141m
 
 - 升级指令 `./kk upgrade --with-kubesphere v3.2.1 -f sample.yaml`
 - 升级失败
+
 ```
 失败1：notification-manager升级报错
 "runner_ident": "monitoring",
@@ -247,6 +252,7 @@ FetchError: request to http://ks-apiserver/api/v1/nodes failed, reason: getaddri
 ```
 
 - 升级失败解决
+
 ```
 失败1
 # 卸载报错的notification-manager
@@ -284,6 +290,7 @@ kubectl -n kubesphere-system scale deployment ks-apiserver --replicas=0 && kubec
 
 # 部署/升级常见错误
 - notification-manager升级报错
+
 ```
 # 报错日志
 "runner_ident": "monitoring",
@@ -294,7 +301,9 @@ kubectl -n kubesphere-system scale deployment ks-apiserver --replicas=0 && kubec
 helm uninstall notification-manager -n kubesphere-monitoring-system
 
 ```
+
 - 登录失败报错， EAI_AGAIN
+
 ```
 # 报错日志
   <-- GET / 2022/01/11T20:43:05.997
@@ -316,6 +325,7 @@ kubectl -n kubesphere-system scale deployment ks-console --replicas=0 && kubectl
 ```
 
 - 概览的监控数据获取失败
+
 ```
 # 解决。 重启ks-apiserver
 kubectl -n kubesphere-system scale deployment ks-apiserver --replicas=0 && kubectl -n kubesphere-system scale deployment ks-apiserver --replicas=1
