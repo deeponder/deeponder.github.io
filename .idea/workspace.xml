@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="26a48271-8e5e-41db-8857-fad9f20cd5f5" name="Default" comment="更新">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2022-5-30-kataContainer.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2022-5-30-kataContainer.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +22,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="GoVcsConfiguration">
     <option name="GO_FMT" value="false" />
@@ -47,6 +59,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="minikube" />
+    <option name="namespace" value="default" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="3njqhsid" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -100,25 +119,170 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_posts" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/img" />
       <recent name="E:\Learn&amp;Update\deeponder.github.io\_posts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_posts" />
+      <recent name="$PROJECT_DIR$/img" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\jabinhuang\AppData\Roaming\Subversion</configuration>
     <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task id="LOCAL-00001" summary="更新">
+      <created>1640269756254</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640269756254</updated>
+    </task>
+    <task id="LOCAL-00002" summary="更新">
+      <created>1640270002035</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640270002035</updated>
+    </task>
+    <task id="LOCAL-00003" summary="更新">
+      <created>1640270117423</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1640270117423</updated>
+    </task>
+    <task id="LOCAL-00004" summary="更新">
+      <created>1640270422526</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640270422526</updated>
+    </task>
+    <task id="LOCAL-00005" summary="更新">
+      <created>1640346480767</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1640346480767</updated>
+    </task>
+    <task id="LOCAL-00006" summary="更新">
+      <created>1640346614703</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1640346614703</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <created>1642947864924</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642947864924</updated>
+      <workItem from="1642947867193" duration="1587000" />
+      <workItem from="1643160337781" duration="681000" />
+      <workItem from="1644310148759" duration="31000" />
+      <workItem from="1644564376690" duration="625000" />
+      <workItem from="1644664382031" duration="1847000" />
+      <workItem from="1656919425828" duration="1076000" />
+      <workItem from="1656920537474" duration="277000" />
+      <workItem from="1656920819233" duration="998000" />
+    </task>
+    <task id="LOCAL-00007" summary="更新">
+      <created>1642948269480</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1642948269480</updated>
+    </task>
+    <task id="LOCAL-00008" summary="更新">
+      <created>1642948541132</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1642948541132</updated>
+    </task>
+    <task id="LOCAL-00009" summary="更新">
+      <created>1642948813518</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1642948813518</updated>
+    </task>
+    <task id="LOCAL-00010" summary="更新">
+      <created>1643160361734</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1643160361734</updated>
+    </task>
+    <task id="LOCAL-00011" summary="更新">
+      <created>1644664569757</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1644664569757</updated>
+    </task>
+    <task id="LOCAL-00012" summary="更新">
+      <created>1644664688292</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1644664688292</updated>
+    </task>
+    <task id="LOCAL-00013" summary="更新">
+      <created>1644664840585</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1644664840585</updated>
+    </task>
+    <task id="LOCAL-00014" summary="更新">
+      <created>1644983897795</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1644983897795</updated>
+    </task>
+    <task id="LOCAL-00015" summary="更新">
+      <created>1656919707967</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1656919707967</updated>
+    </task>
+    <task id="LOCAL-00016" summary="更新">
+      <created>1656920447105</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1656920447106</updated>
+    </task>
+    <task id="LOCAL-00017" summary="更新">
+      <created>1656920643882</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1656920643882</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1136" extended-state="7" />

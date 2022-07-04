@@ -14,5 +14,5 @@ tags:
 
 [kata-container](https://renovwjw13.feishu.cn/docs/doccnUFBhssKtFX1rAHAO0YoZyb)
 
-ps: 转用飞书，所以博客贴pdf链接
+ps: 转用飞书，所以博客贴飞书链接
 
