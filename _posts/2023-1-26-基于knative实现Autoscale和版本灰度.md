@@ -12,7 +12,7 @@ tags:
     
 ---
 
-[日志管理系统的设计和实现](https://renovwjw13.feishu.cn/docx/MN5RdbyeLow7UExdTpMc0Cefnld)
+[基于knative实现Autoscale和版本灰度](https://renovwjw13.feishu.cn/docx/MN5RdbyeLow7UExdTpMc0Cefnld)
 
 ps: 转用飞书，所以博客贴飞书链接
 
