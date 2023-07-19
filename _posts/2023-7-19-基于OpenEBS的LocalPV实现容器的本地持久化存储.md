@@ -9,7 +9,9 @@ catalog: true
 tags:
     - 计算机
     - k8s
-    - hpa
+    - OpenEBS
+    - LocalPV
+    - 容器持久化存储
     
 ---
 
