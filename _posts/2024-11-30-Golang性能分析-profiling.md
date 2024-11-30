@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Metrics规范
+title:      Golang性能分析-profiling 
 subtitle:   
 date:       2024-11-30
 author:     jabin
@@ -9,12 +9,13 @@ catalog: true
 tags:
     - 计算机
     - infra
-    - metrics
-    - 技术规范
+    - 性能分析
+    - profiling
+    - Go
     
 ---
 
-- [Metrics规范](https://renovwjw13.feishu.cn/docx/XjPddASP6o3aggxDK88cxyu8nhf)。 
+- [Golang性能分析-profiling](https://renovwjw13.feishu.cn/docx/ZLy2dV14Gogi9ZxSiVRc6zirnBf)。 
 
 ps: 转用飞书，所以博客贴飞书链接
 
